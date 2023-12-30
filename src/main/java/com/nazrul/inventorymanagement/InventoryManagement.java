@@ -15,7 +15,7 @@ import javafx.stage.StageStyle;
  *
  * @author Rokon Nazrul
  */
-public class LibraryManagement extends Application {
+public class InventoryManagement extends Application {
 
     private double x = 0.0;
     private double y = 0.0;
