@@ -1,0 +1,52 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 27, 2023, 3:39:12 PM
+    Author     : Rokon Nazrul
+*/
+
+.login-form{
+    -fx-background-color: linear-gradient(to bottom right,#324f6b,#022a79);
+}
+
+.login-card{
+    -fx-background-color: white;
+}
+
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.close:hover{
+    -fx-background-color: #f13f57;
+}
+
+.minimize{
+    -fx-background-color:transparent;
+    -fx-cursor: hand;
+}
+
+.minimize:hover{
+    -fx-background-color: #f13f57;
+}
+
+.text-input{
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-color: #656565;
+    -fx-background-color: transparent;
+}
+.text-input:focused{
+    -fx-border-width: 0px 0px 2px 0px;
+}
+
+.login-btn{
+    -fx-background-color: #324f6b;
+}
+
+.login-btn:hover{
+    -fx-background-color: #55789a;
+    -fx-cursor: hand;
+}

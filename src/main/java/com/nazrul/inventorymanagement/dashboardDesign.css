@@ -1,0 +1,24 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 29, 2023, 2:06:18 AM
+    Author     : Rokon Nazrul
+*/
+
+.title-bar{
+    -fx-background-color:#022a79;
+}
+
+.nav-icon-bar{
+    -fx-background-color: white;
+}
+
+.nav-button{
+    -fx-background-color: transparent;
+}
+
+.nav-icon{
+    -fx-text-fill:#f13f57;
+}
