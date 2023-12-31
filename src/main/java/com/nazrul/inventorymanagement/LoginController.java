@@ -29,7 +29,7 @@ import javafx.stage.Stage;
 public class LoginController implements Initializable {
 
     @FXML
-    private Button closeBtn;
+    private Button exitBtn;
 
     @FXML
     private Button loginBtn;
@@ -98,6 +98,13 @@ public class LoginController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
+        exitBtn.setOnMouseClicked(event -> {
+            exit();
+        });
+
+        minimizeBtn.setOnMouseClicked(event -> {
+            minimize();
+        });
     }
 
 }

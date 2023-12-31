@@ -29,7 +29,7 @@ public class DashboardController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         exit.setOnMouseClicked(event -> {
-            System.exit(0);
+            System.exit(1);
         });
 
         panel1.setVisible(false);

@@ -9,66 +9,66 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
-      <AnchorPane prefHeight="47.0" prefWidth="800.0" styleClass="title-bar" stylesheets="@../dashboardDesign.css" BorderPane.alignment="CENTER">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21">
+      <AnchorPane prefHeight="47.0" prefWidth="800.0" styleClass="title-bar" stylesheets="@../../../style/dashboardDesign.css" BorderPane.alignment="CENTER">
          <children>
-         <Button fx:id="exit" mnemonicParsing="false" text="Button">
+         <Button fx:id="exit" layoutX="768.0" mnemonicParsing="false">
             <graphic>
                <FontAwesomeIconView glyphName="CLOSE" size="20" />
             </graphic>
          </Button>
-            <Button fx:id="menu" layoutY="10.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="39.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css" textFill="WHITE">
+            <Button fx:id="menu" layoutY="10.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="39.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css" textFill="WHITE">
                <graphic>
-                  <FontAwesomeIconView fill="WHITE" glyphName="BARS" size="24" />
+                  <FontAwesomeIconView fill="WHITE" glyphName="BARS" size="24" text="" />
                </graphic>
             </Button>
          </children>
       </AnchorPane>
       <AnchorPane layoutY="47.0" prefHeight="442.0" prefWidth="37.0" BorderPane.alignment="CENTER">
          <children>
-            <VBox prefHeight="453.0" prefWidth="37.0" styleClass="nav-icon-bar" stylesheets="@../dashboardDesign.css">
+            <VBox prefHeight="453.0" prefWidth="37.0" styleClass="nav-icon-bar" stylesheets="@../../../style/dashboardDesign.css">
                <children>
                   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="33.0" opacity="0.0" stroke="WHITE" strokeType="INSIDE" width="37.0" />
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                      <graphic>
                         <FontAwesomeIconView fill="#545454" glyphName="HOME" size="20" styleClass="nav-icon" />
                      </graphic>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                      <graphic>
                         <FontAwesomeIconView fill="#545454" glyphName="COGS" size="18" />
                      </graphic>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                      <graphic>
                         <FontAwesomeIconView fill="#545454" glyphName="USER_SECRET" size="18" />
                      </graphic>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                   <graphic>
                      <FontAwesomeIconView fill="#545454" glyphName="DROPBOX" size="20" />
                   </graphic></Button>
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                      <graphic>
                         <FontAwesomeIconView fill="#545454" glyphName="USER_PLUS" size="16" />
                      </graphic>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                      <graphic>
                         <FontAwesomeIconView fill="#545454" glyphName="PRODUCT_HUNT" size="20" />
                      </graphic>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                      <graphic>
                         <FontAwesomeIconView fill="#545454" glyphName="USERS" size="16" />
                      </graphic>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                      <graphic>
                         <FontAwesomeIconView fill="#545454" glyphName="LINE_CHART" size="18" />
                      </graphic>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                      <graphic>
                         <FontAwesomeIconView fill="#545454" glyphName="SIGN_OUT" size="20" />
                      </graphic>
@@ -77,53 +77,52 @@
             </VBox>
          </children>
       </AnchorPane>
-   <AnchorPane fx:id="panel1" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #000000;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
    <AnchorPane layoutX="-2.0" layoutY="48.0" prefHeight="442.0" prefWidth="40.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
       <children>
-         <VBox layoutY="-1.0" prefHeight="453.0" prefWidth="40.0" styleClass="nav-icon-bar" stylesheets="@../dashboardDesign.css">
+         <VBox layoutY="-1.0" prefHeight="453.0" prefWidth="40.0" styleClass="nav-icon-bar" stylesheets="@../../../style/dashboardDesign.css">
             <children>
                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="33.0" opacity="0.0" stroke="WHITE" strokeType="INSIDE" width="37.0" />
-               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                   <graphic>
                      <FontAwesomeIconView fill="#545454" glyphName="HOME" size="20" styleClass="nav-icon" />
                   </graphic>
                </Button>
-               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                   <graphic>
                      <FontAwesomeIconView fill="#545454" glyphName="COGS" size="18" />
                   </graphic>
                </Button>
-               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                   <graphic>
                      <FontAwesomeIconView fill="#545454" glyphName="USER_SECRET" size="18" />
                   </graphic>
                </Button>
-               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                   <graphic>
                      <FontAwesomeIconView fill="#545454" glyphName="DROPBOX" size="20" />
                   </graphic>
                </Button>
-               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                   <graphic>
                      <FontAwesomeIconView fill="#545454" glyphName="USER_PLUS" size="16" />
                   </graphic>
                </Button>
-               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                   <graphic>
                      <FontAwesomeIconView fill="#545454" glyphName="PRODUCT_HUNT" size="20" />
                   </graphic>
                </Button>
-               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                   <graphic>
                      <FontAwesomeIconView fill="#545454" glyphName="USERS" size="16" />
                   </graphic>
                </Button>
-               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                   <graphic>
                      <FontAwesomeIconView fill="#545454" glyphName="LINE_CHART" size="18" />
                   </graphic>
                </Button>
-               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../dashboardDesign.css">
+               <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" styleClass="nav-button" stylesheets="@../../../style/dashboardDesign.css">
                   <graphic>
                      <FontAwesomeIconView fill="#545454" glyphName="SIGN_OUT" size="20" />
                   </graphic>

@@ -22,12 +22,18 @@ public class InventoryManagement extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
+        DashboardController dashboardController = new DashboardController();
         Parent root = FXMLLoader.load(getClass().getResource("LoginView.fxml"));
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("DashboardView.fxml"));
+        //loader.setController(dashboardController);
+
+        //Parent root = loader.load();
+
         //Parent root = FXMLLoader.load(getClass().getResource("./view/DashboardView.fxml"));
 //        root.getStylesheets().clear();
 //        root.getStylesheets().add(getClass().getResource("loginDesign.css").toExternalForm());
         Scene scene = new Scene(root);
-
         root.setOnMousePressed(((event) -> {
             x = event.getSceneX();
             y = event.getSceneY();

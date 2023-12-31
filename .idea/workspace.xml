@@ -8,9 +8,23 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/PrimaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/SecondaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/SecondaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/InventoryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/SecondaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/dashboardDesign.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/style/dashboardDesign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/loginDesign.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/style/loginDesign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/view/DashboardView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nazrul/inventorymanagement/view/LoginView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/nazrul/inventorymanagement/DashboardView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/nazrul/inventorymanagement/DashboardView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/nazrul/inventorymanagement/LoginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/nazrul/inventorymanagement/LoginView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/nazrul/inventorymanagement/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/nazrul/inventorymanagement/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nazrul/inventorymanagement/LoginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nazrul/inventorymanagement/LoginView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nazrul/inventorymanagement/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nazrul/inventorymanagement/secondary.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +63,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -58,6 +72,8 @@
       <recent name="C:\Users\Rokon Nazrul\Documents\NetBeansProjects\InventoryManagement\src\main\resources\com\nazrul\inventorymanagement" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rokon Nazrul\Documents\NetBeansProjects\InventoryManagement\src\main\resources\com\nazrul\inventorymanagement" />
+      <recent name="C:\Users\Rokon Nazrul\Documents\NetBeansProjects\InventoryManagement\src\main\resources\style" />
       <recent name="C:\Users\Rokon Nazrul\Documents\NetBeansProjects\InventoryManagement\src" />
       <recent name="C:\Users\Rokon Nazrul\Documents\NetBeansProjects\InventoryManagement\.idea" />
       <recent name="C:\Users\Rokon Nazrul\Documents\NetBeansProjects\InventoryManagement\src\main\java\com\nazrul\inventorymanagement" />
@@ -66,13 +82,13 @@
       <recent name="com.nazrul.inventorymanagement" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.InventoryManagement">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nazrul.inventorymanagement.App" />
       <module name="InventoryManagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nazrul.inventorymanagement.*" />
+          <option name="PATTERN" value="com.nazrul.inventorymanagement.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,7 +101,7 @@
       <module name="InventoryManagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nazrul.inventorymanagement.*" />
+          <option name="PATTERN" value="com.nazrul.inventorymanagement.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,8 +115,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.InventoryManagement" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +132,9 @@
       <workItem from="1703932075295" duration="2935000" />
       <workItem from="1703969094135" duration="4979000" />
       <workItem from="1703976360185" duration="1754000" />
-      <workItem from="1703978699263" duration="1572000" />
+      <workItem from="1703978699263" duration="6294000" />
+      <workItem from="1703985889796" duration="2088000" />
+      <workItem from="1703989197460" duration="3633000" />
     </task>
     <task id="LOCAL-00001" summary="Successfully committed the project.">
       <option name="closed" value="true" />
@@ -126,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703971334198</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Successfully committed the project.">
+      <option name="closed" value="true" />
+      <created>1703980360538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703980360538</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
